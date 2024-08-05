@@ -1,101 +1,40 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background: #f4f4f4;
-    color: #333;
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    list-style-type: none;
+header nav ul {
+    list-style: none;
+    margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-nav ul li {
-    margin: 0 15px;
+header nav ul li {
+    margin-right: 20px;
 }
 
-nav ul li a {
-    color: white;
+header nav a {
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #d4d4d4;
-}
-
-.section {
-    padding: 4rem 2rem;
-    text-align: center;
-    background: white;
-    margin: 2rem 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.section:nth-child(even) {
-    background: #f9f9f9;
-}
-
-h2 {
-    color: #4CAF50;
-    margin-bottom: 1rem;
-}
-
-.project {
-    margin: 1.5rem 0;
-}
-
-form {
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-    background: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-form label, form input, form textarea {
-    margin: 0.5rem 0;
-    width: 100%;
-}
-
-form button {
-    background: #4CAF50;
-    color: white;
-    border: none;
-    padding: 0.7rem 1.5rem;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background 0.3s;
-}
-
-form button:hover {
-    background: #45a049;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+section {
+    background-color: #f7f7f7;
+    padding
