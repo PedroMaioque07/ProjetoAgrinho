@@ -1,70 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho</title>
+    <title>Agrinho - Transformando o Meio Rural</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Projeto Agrinho</h1>
         <nav>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projeto">Projeto</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="home" class="section">
-        <h2>Bem-vindo ao Projeto Agrinho</h2>
-        <p>Unindo o meio rural e a cidade para um futuro sustentável.</p>
-    </section>
-
-    <section id="about" class="section">
-        <h2>Sobre o Projeto</h2>
-        <p>O Projeto Agrinho visa promover a integração entre o campo e a cidade, através de iniciativas que melhorem a qualidade de vida e a sustentabilidade.</p>
-    </section>
-
-    <section id="projects" class="section">
-        <h2>Nossos Projetos</h2>
-        <div class="project">
-            <h3>Feira de Produtos Orgânicos</h3>
-            <p>Incentivando a produção e o consumo de alimentos orgânicos na cidade.</p>
-        </div>
-        <div class="project">
-            <h3>Educação Ambiental</h3>
-            <p>Programas educativos para conscientizar a população sobre a importância do meio ambiente.</p>
-        </div>
-        <div class="project">
-            <h3>Infraestrutura Sustentável</h3>
-            <p>Desenvolvimento de infraestrutura que respeite e preserve o meio ambiente.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contato</h2>
-        <form>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
+    <main>
+        <section id="sobre">
+            <h1>Agrinho - Transformando o Meio Rural</h1>
+            <p>O projeto Agrinho visa mudar o meio rural e sua integridade com a cidade, promovendo o desenvolvimento sustentável e a melhoria da qualidade de vida dos agricultores e suas famílias.</p>
+            <img src="img/agrinho-logo.png" alt="Logo do Agrinho">
+        </section>
+        <section id="projeto">
+            <h2>O Projeto</h2>
+            <p>O Agrinho é um projeto que busca melhorar a produtividade e a eficiência dos agricultores, além de promover a integração com a cidade e o mercado. Isso é feito por meio da implementação de tecnologias inovadoras e sustentáveis, como a agricultura de precisão e a energia renovável.</p>
+            <img src="img/projeto-agrinho.jpg" alt="Imagem do projeto Agrinho">
+        </section>
+        <section id="equipe">
+            <h2>A Equipe</h2>
+            <p>A equipe do Agrinho é composta por profissionais experientes e apaixonados pelo desenvolvimento sustentável e a melhoria da qualidade de vida dos agricultores e suas famílias.</p>
+            <ul>
+                <li>
+                    <img src="img/equipe1.jpg" alt="Membro da equipe 1">
+                    <p>Nome: João Silva</p>
+                    <p>Cargo: Diretor Executivo</p>
+                </li>
+                <li>
+                    <img src="img/equipe2.jpg" alt="Membro da equipe 2">
+                    <p>Nome: Maria Souza</p>
+                    <p>Cargo: Gerente de Projetos</p>
+                </li>
+                <li>
+                    <img src="img/equipe3.jpg" alt="Membro da equipe 3">
+                    <p>Nome: Pedro Oliveira</p>
+                    <p>Cargo: Especialista em Agricultura de Precisão</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais sobre o projeto Agrinho e como você pode se envolver!</p>
+            <form>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="email" name="email" placeholder="E-mail">
+                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Projeto Agrinho. Todos os direitos reservados.</p>
+        <p>&copy; 2023 Agrinho. Todos os direitos reservados.</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
